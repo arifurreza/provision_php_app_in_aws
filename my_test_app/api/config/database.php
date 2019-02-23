@@ -2,7 +2,7 @@
 class Database{
  
     // specify your own database credentials
-    private $host = "tbwrtwj6tqcfas.cszeqrsni6fa.us-east-2.rds.amazonaws.com";
+    private $host = "tb154ws8l9a25zm.cszeqrsni6fa.us-east-2.rds.amazonaws.com";
     private $db_name = "registration_v1";
     private $username = "test";
     private $password = "12345698";
