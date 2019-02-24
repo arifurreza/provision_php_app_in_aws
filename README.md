@@ -3,7 +3,7 @@ Provision a highly available and scalable architecture that hosts a PHP applicat
 
 ## Introduction
 
-I'm using Amazon Web Service infrastructure for deployment sample PHP application and automation part i'm using CloudFormation.
+I'm using Amazon Web Service infrastructure for deployment sample PHP application and automation part i'm using CloudFormation. 
 
 - Why use CloudFormation?
 
@@ -110,3 +110,4 @@ Things achieved by executing the template:
 	- The green environment is the staging stack, which hosts the updated application.
 	
 When you are ready to deploy the updated app to production, you switch user traffic from the blue stack to the green stack, which becomes the new production stack. You then retire the old blue stack.
+- If you localy monitor your infrastructure then you can use Netdata, Which is open source as well as you can configure email and push messeages.
