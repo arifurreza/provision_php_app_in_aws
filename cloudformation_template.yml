@@ -858,7 +858,7 @@ Outputs:
         - !GetAtt 
           - ApplicationLoadBalancer
           - DNSName
-    Description: BorderGuru DevOps Test
+    Description: SafeBoda application url
   JDBCConnectionString:
     Value: !Join ['', ['jdbc:mysql://', !GetAtt [BGDB, Endpoint.Address], ':', !GetAtt [
           BGDB, Endpoint.Port], /, !Ref 'DBName']]
